@@ -1,0 +1,1 @@
+print(pd.DataFrame.from_dict(logs.to_dict()))
