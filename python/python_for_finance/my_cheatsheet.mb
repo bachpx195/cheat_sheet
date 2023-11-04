@@ -20,3 +20,10 @@ Out[3]:
 1  6  2
 2  3  3
 ```
+
+
+# add new row to the first
+
+df.loc[-1] = ['45', 'Dean', 'male']  # adding a row
+df.index = df.index + 1  # shifting index
+df.sort_index(inplace=True) 
