@@ -1,5 +1,6 @@
 ### Group and count
 
+```ruby
 def group_and_count arr, sort_by_value=true
   h = arr.inject(Hash.new(0)) { |h, e| h[e] += 1 ; h }
   if sort_by_value
@@ -8,3 +9,4 @@ def group_and_count arr, sort_by_value=true
     return h.sort.to_h
   end
 end
+```
