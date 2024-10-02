@@ -15,3 +15,9 @@ datetime_str = '09/19/22 13:55:26'
 
 datetime_object = datetime.strptime(datetime_str, '%m/%d/%y %H:%M:%S')
 ```
+
+
+### Remove timezone
+```python
+replace(tzinfo=None)
+```
